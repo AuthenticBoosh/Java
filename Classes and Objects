@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Class1 c = new Class1(); // Object  of 'Class1' named "c"
+		System.out.println(c.x);
+		
+		int i = 0;
+		
+		
+	}
+
+}
