@@ -1,0 +1,25 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Class1 c = new Class1(); // Object  of 'Class1' named "c"
+		System.out.println(c.x);
+		
+		int i = 0;
+		
+		saySomething("hello"); //this is the saySomething() method called with the parameter of a string defined as the variable s in the method
+		saySomething("hi how are you");
+		saySomething("whats new?");
+	
+		
+	}
+	
+	public static void saySomething(String s)	{ // saySomething method with the definable parameter of a String variable named s
+		System.out.println(s); //Prints s whatever we tell it to be 
+	
+		
+	}
+
+}
