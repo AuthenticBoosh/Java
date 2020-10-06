@@ -1,0 +1,56 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Class1 c = new Class1(); // Object  of 'Class1' named "c"
+		System.out.println(c.x);
+		
+		int i = 0;
+		
+		saySomething("hello", 30);
+		saySomething("hi how are you", 18);
+		saySomething("whats new?", 20);
+		addNumbers(8,10);
+	
+		String shouting = caps("this is going to be capitalized when you read in the eclipse console.");
+		System.out.println(shouting);
+		
+		System.out.println("==========================================================");
+		
+		int[] awesomeArray = threeNums(1,5,7);
+		System.out.println(awesomeArray[0]); // Prints position zero of awesome array. The array only exists because it's created through the method threeNums
+		
+	}
+	
+	public static void saySomething(String s, int age)	{ // Example of parameters used on a single method
+		System.out.println(s);
+		System.out.println(age);
+	
+		
+	}
+	
+	public static void addNumbers(int a, int b)	{
+	int c = a + b;
+	System.out.println(c);
+	}
+
+	public static String caps(String s)	{
+		return s.toUpperCase();
+	}
+	
+	
+	
+	public static int[] threeNums(int a, int b, int c) {
+	int[] array = new int[3]; //Array declaration with the name "Array" the declaration of an array comes from the [] right after the type which in this case is int
+	array[0] = a;
+	array[1] = b;
+	array[2] = c;
+	return array;
+	
+	}
+	
+	
+}
