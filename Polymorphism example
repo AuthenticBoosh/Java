@@ -1,0 +1,24 @@
+class Bird	{
+
+	public void sing()	{
+		System.out.println("Tweet tweet tweet");
+	}
+	
+}
+
+class Pelican extends Bird	{
+	
+}
+
+
+public class Polymorphism {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Pelican P = new Pelican();
+		P.sing();
+		
+	}
+
+}
