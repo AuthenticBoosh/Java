@@ -4,12 +4,27 @@ public class Comparitor {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		// is equal to
+		// <= less than or equal to
+		// <  less than
+		// >  greater than
+		// >= greater than or equal to
+		// != not equal to
+		// || or
+		
+		
 		int a = 5;
 		int b = 3;
 		
 		boolean c =a == b;
+		boolean d = (a > b);
 		
 		System.out.println(c);
+		
+		if (a == 5 || b == 3)	{
+			System.out.println("a is 5 and b is 3");
+		}
+		
 	}
 
 }
